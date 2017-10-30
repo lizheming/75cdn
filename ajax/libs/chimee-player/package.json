@@ -1,0 +1,31 @@
+{
+  "name": "chimee-player",
+  "version": "0.0.7",
+  "description": "A complete set of H5 player",
+  "filename": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chimeejs/chimee-player.git"
+  },
+  "author": "huzunjie",
+  "homepage": "https://chimee.org",
+  "keywords": [
+    "plugin",
+    "chimee",
+    "player",
+    "video",
+    "H5",
+    "HTML5",
+    "javascript"
+  ],
+  "license": "ISC",
+  "npmName": "chimee-player",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "index.browser.js"
+      ]
+    }
+  ]
+}

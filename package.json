@@ -1,0 +1,32 @@
+{
+  "name": "75cdn",
+  "version": "1.0.0",
+  "description": "cdn library as like cdnjs",
+  "homepage": "https://cdn.baomitu.com",
+  "scripts": {
+    "auto-update": "node auto-update.js run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lizheming/75cdn.git"
+  },
+  "keywords": [
+    "75cdn"
+  ],
+  "author": "lizheming <i@imnerd.org>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.5.0",
+    "chmodr": "^1.0.2",
+    "colors": "^1.1.2",
+    "fs-extra": "^4.0.2",
+    "glob": "^7.1.2",
+    "is-there": "^4.4.3",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "semver": "^5.4.1",
+    "semver-stable": "^2.0.4",
+    "superagent": "^3.8.0",
+    "tarball-extract": "0.0.6"
+  }
+}
