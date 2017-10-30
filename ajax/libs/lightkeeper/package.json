@@ -1,0 +1,29 @@
+{
+  "name": "lightkeeper",
+  "version": "0.0.3",
+  "description": "Pharos data send script for Web.",
+  "filename": "pharos.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkjs/lightkeeper.git"
+  },
+  "author": "lizheming",
+  "homepage": "https://github.com/thinkjs/lightkeeper.git",
+  "keywords": [
+    "Pharos",
+    "ThinkJS",
+    "Performance",
+    "Monitor"
+  ],
+  "license": "MIT",
+  "npmName": "lightkeeper",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "pharos.js",
+        "pharos.min.js"
+      ]
+    }
+  ]
+}
