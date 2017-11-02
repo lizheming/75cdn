@@ -1,0 +1,27 @@
+{
+  "name": "v-tags",
+  "version": "0.1.27",
+  "description": "UI components based on Vue.js 2.0",
+  "filename": "v-tags.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/75team-biz/v-tags.git"
+  },
+  "author": "webzhao@gmail.com",
+  "homepage": "https://75team-biz.github.io/v-tags/",
+  "keywords": [
+    "VueJS",
+    "Components",
+    "UI"
+  ],
+  "license": "MIT",
+  "npmName": "v-tags",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "v-tags.js"
+      ]
+    }
+  ]
+}
