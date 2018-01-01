@@ -11,6 +11,8 @@ scratch/*
 temp/
 node_modules/
 
+git_repo_local_cache
+
 # for bot to mark as the new version cannot be added automatically, prevent keep compressing files in it.
 /ajax/libs/*/*/.bot_cant_auto_add
 

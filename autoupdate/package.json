@@ -1,0 +1,34 @@
+{
+  "name": "autoupdate",
+  "version": "0.0.0",
+  "description": "autoupdate ==========",
+  "main": "autoupdate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cdnjs/autoupdate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdnjs/autoupdate/issues"
+  },
+  "homepage": "https://github.com/cdnjs/autoupdate",
+  "dependencies": {
+    "async": "^2.5.0",
+    "colors": "^1.1",
+    "compare-versions": "^3.1.0",
+    "fs-extra": "^4.0.2",
+    "gift": "^0.10",
+    "glob": "^7",
+    "is-there": "^4.4.3",
+    "lodash": "^4.17.4",
+    "nodegit": "^0.20",
+    "semver-stable": "^2.0.4"
+  },
+  "engines": {
+    "node": "^8"
+  }
+}
