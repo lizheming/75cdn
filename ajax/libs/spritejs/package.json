@@ -1,6 +1,6 @@
 {
   "name": "spritejs",
-  "version": "1.11.0",
+  "version": "1.14.5",
   "description": "A lightweight 2D canvas rendering engine for modern browsers with ES6+.",
   "filename": "sprite.js",
   "repository": {
