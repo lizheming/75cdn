@@ -1,0 +1,32 @@
+{
+  "name": "chimee-mobile-player",
+  "version": "0.0.5",
+  "description": "A complete set of H5 mobile player",
+  "filename": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chimeejs/chimee-mobile-player.git"
+  },
+  "author": "yandeqiang",
+  "homepage": "https://github.com/Chimeejs/chimee-mobile-player#readme",
+  "keywords": [
+    "plugin",
+    "chimee",
+    "player",
+    "video",
+    "H5",
+    "HTML5",
+    "mobile",
+    "javascript"
+  ],
+  "license": "MIT",
+  "npmName": "chimee-mobile-player",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "chimee-mobile-player.browser.js"
+      ]
+    }
+  ]
+}
