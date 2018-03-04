@@ -1,6 +1,6 @@
 {
   "name": "chimee-mobile-player",
-  "version": "0.0.5",
+  "version": "0.1.1",
   "description": "A complete set of H5 mobile player",
   "filename": "index.js",
   "repository": {
@@ -25,7 +25,7 @@
     {
       "basePath": "lib",
       "files": [
-        "chimee-mobile-player.browser.js"
+        "chimee-mobile-player.min.js"
       ]
     }
   ]
