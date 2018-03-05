@@ -24,7 +24,8 @@
     {
       "basePath": "lib",
       "files": [
-        "chimee-player.browser.js"
+        "chimee-player.browser.js",
+        "chimee-player.min.js"
       ]
     }
   ]
