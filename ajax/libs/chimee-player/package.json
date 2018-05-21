@@ -1,6 +1,6 @@
 {
   "name": "chimee-player",
-  "version": "1.4.1",
+  "version": "1.4.3",
   "description": "A complete set of H5 player",
   "filename": "index.js",
   "repository": {
@@ -24,6 +24,7 @@
     {
       "basePath": "lib",
       "files": [
+        "chimee-player.browser.css",
         "chimee-player.browser.js",
         "chimee-player.min.js"
       ]
