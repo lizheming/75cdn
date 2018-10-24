@@ -1,0 +1,98 @@
+.rb-table {
+  overflow: hidden;
+  position: relative;
+  padding: 0 15px 15px 0;
+  background: #FFF;
+  color: #333;
+}
+.rb-table table {
+  width: 100%;
+  border-spacing: 0;
+  font-size: 12px;
+  table-layout: fixed;
+  border: none;
+  word-break: break-all;
+}
+.rb-table-scrollx {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom: 99999px;
+}
+.rb-table__body {
+  overflow: scroll;
+  overflow-x: hidden;
+  padding-right: 300px;
+}
+.rb-table__body .rb-table-hidden-layout {
+  position: fixed;
+  visibility: hidden;
+  top: 1000000px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  table-layout: auto;
+}
+.rb-table-fixed {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  background: #FFF;
+}
+.rb-table-fixed table {
+  width: auto;
+}
+.rb-table-fixed__body {
+  overflow: hidden;
+}
+.rb-table-fixed--left {
+  left: 0;
+  border-right: 1px solid #f0f0f0;
+}
+.rb-table-fixed--right {
+  right: 15px;
+  border-left: 1px solid #f0f0f0;
+}
+.rb-table-row--hover {
+  background-color: #ffffff;
+}
+.rb-table-row--clickable {
+  cursor: pointer;
+}
+.rb-table-cell {
+  padding: 14px 10px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 12px;
+}
+.rb-table__hscroll {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 12px;
+  padding: 1px 0;
+  background: #eee;
+  height: 10px;
+  z-index: 1;
+}
+.rb-table__hscroll__bar {
+  background: #777;
+  border-radius: 10px;
+  height: 100%;
+}
+.rb-table__vscroll {
+  visibility: hidden;
+  position: absolute;
+  background: #eee;
+  top: 0;
+  bottom: 0;
+  right: 2px;
+  padding: 0 1px;
+  width: 10px;
+  z-index: 1;
+}
+.rb-table__vscroll__bar {
+  background: #777;
+  border-radius: 10px;
+  width: 100%;
+}

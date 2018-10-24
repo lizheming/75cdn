@@ -1,6 +1,6 @@
 {
   "name": "rb-table",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Declarative React table component with highly customizable scroll and layout feature",
   "filename": "index.js",
   "repository": {
@@ -14,7 +14,10 @@
   "npmFileMap": [
     {
       "basePath": "dist",
-      "files":  ["*.js", "*.css"]
+      "files": [
+        "*.js",
+        "*.css"
+      ]
     }
   ]
 }
