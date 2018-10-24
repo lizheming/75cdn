@@ -1,0 +1,20 @@
+{
+  "name": "rb-table",
+  "version": "1.0.0",
+  "description": "Declarative React table component with highly customizable scroll and layout feature",
+  "filename": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SijieCai/rb-table.git"
+  },
+  "author": "SijieCai",
+  "keywords": [],
+  "license": "MIT",
+  "npmName": "rb-table",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files":  ["*.js", "*.css"]
+    }
+  ]
+}
