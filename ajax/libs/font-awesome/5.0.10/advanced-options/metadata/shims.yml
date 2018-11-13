@@ -63,8 +63,11 @@ cloud-upload:
   name: cloud-upload-alt
 code-fork:
   name: code-branch
+comment-alt:
+  name: comment-dots
+  prefix: far
 commenting:
-  name: comment-alt
+  name: comment-dots
 compass:
   prefix: far
 copyright:
@@ -91,6 +94,8 @@ external-link:
   name: external-link-alt
 external-link-square:
   name: external-link-square-alt
+eye:
+  prefix: far
 eye-dropper:
   name: eye-dropper
   prefix: far

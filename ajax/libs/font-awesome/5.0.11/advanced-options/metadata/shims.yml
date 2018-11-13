@@ -68,7 +68,6 @@ comment-alt:
   prefix: far
 commenting:
   name: comment-dots
-  prefix: far
 compass:
   prefix: far
 copyright:
@@ -95,6 +94,8 @@ external-link:
   name: external-link-alt
 external-link-square:
   name: external-link-square-alt
+eye:
+  prefix: far
 eye-dropper:
   name: eye-dropper
   prefix: far

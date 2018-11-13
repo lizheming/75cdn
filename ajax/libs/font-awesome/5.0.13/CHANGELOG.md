@@ -8,6 +8,168 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 repository that is by invitation only. You will get a 404 - Not Found if you do
 not have access**
 
+## [5.5.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.5.0)  - 2018-11-02
+
+### Added
+* Politics category
+* Weather category (volume 1 and 2)
+* Brand icon reacteurope
+* Sponsorship of briefcase by WorkRails
+
+### Fixed
+* Alignment centered for larger icons when using the CSS stacks feature
+
+---
+
+## [5.4.2](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.2)  - 2018-10-25
+
+### Added
+* Brand icon think-peaks
+
+### Changed
+* Updated rocketchat brand icon
+* Adding vr-cardboard and d-and-d-beyond to Free version
+* Replacing rendact with wpressr brand icon
+* Changing the version 4 shim for commenting icon to solid style to better match version 4
+
+### Fixed
+* Path issues with tombstone-alt icon in Regular and Light styles
+
+---
+
+## [5.4.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.1)  - 2018-10-10
+
+### Fixed
+* Separate wand and wand-magic into unique icons
+* Corrected the alignment of linkedin-in
+* Renamed categories "Holiday" to "Halloween" and "Seasonal" to "Autumn"
+
+---
+
+## [5.4.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.4.0)  - 2018-10-08
+
+### Added
+* New Tabletop Gaming, Holiday, Seasonal category
+* 7 tabletop gaming brands (acquisitions-incorporated, critical-role, d-and-d, d-and-d-beyond, fantasy-flight-games, penny-arcade, wizards-of-the-coast)
+* 25 new animals (and all of them are real you Disbelievers)
+* Sponsorship of volume-mute by Pulse-Eight
+* creative-commons-zero added to Free version
+* DEV brand icon
+* Search terms "positive" and "negative" added to applicable icons
+* Sponsorship of chess-knight by Inspira bvba
+* Sponsorship of blender-phone by Joe Emison
+* Icons chair, chair-office, file-csv, hammer, head-side, head-vr, house-damage, hryvnia, network-wired, running, slash, user-injured, and vr-cardboard
+
+### Changed
+* Using masks with SVG and JavaScript now use nanoid generated IDs instead of a simple counter
+* Updated speakap brand icon
+* Revised menorah icon and added hanukiah
+
+### Fixed
+* Slight distortion in book-heart
+* Bad search terms for folder icon
+* Set license for @fortawesome/free-brands-svg-icons NPM package
+
+---
+
+## [5.3.1](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.3.1)  - 2018-08-28
+
+### Changed
+* Updating icons in the Status category
+
+### Fixed
+* sponsors.yml listed icon prayer instead of pray
+* Removed Pro icons that accidentally made it into Free
+
+---
+
+## [5.3.0](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.3.0)  - 2018-08-27
+
+### Added
+* New Religion, and Marketing category
+* New icons in the Mathematics, and Business category
+* New stats for signal, volume, and wifi icons
+* New brand icon for the-red-yeti and alipay
+
+### Changed
+* Adding ethereum to Currency category
+* Adding bitcoin and btc to Payments & Shopping
+
+### Fixed
+* Incorrect name for layer-minus and layer-plus in sponsors.yml
+* Reversing route-highway and route-interstate
+* Correct version identifier in OTF and web font files
+* CSS keyframe names are not minified (and renamed) to prevent conflict with user or app specific names
+* Sass placeholder selector added for %fa-icon to fix CSS precendence issue with font-weight
+
+---
+
+## [5.2.0](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.2.0)  - 2018-07-23
+
+### Added
+* New education and automotive categories
+* More icons in the medical and maps categories
+* Top requested brands ello, hackerrank, kaggle, markdown, neos, and zhihu
+
+---
+
+## [5.1.1](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.1.1)  - 2018-07-17
+
+### Added
+* Additional search terms for various icons FortAwesome/Font-Awesome#13429
+
+### Changed
+* Marked the font-awesome-logo-full as a "private" icon
+* Consistently named and minified CSS and JS files in the CDN, npm packages, and zip files
+
+### Fixed
+* Removed "fa-" prefix from Less and Sass style bundles filenames
+* Unable to use brand icons with pseudo-elements and SVG with JS
+* Adding icons explicitly using the library were not available when using pseudo-elements and SVG with JS
+* smile-plus search terms in icons.yml incorrectly formatted
+* kiss and grin-wink icons having incorrect weight / style FortAwesome/Font-Awesome#13361 FortAwesome/Font-Awesome#13363
+* Missing underscore in filenames in the less/v4-shims.less FortAwesome/Font-Awesome#13415
+* Light style for code-commit
+* Including rev brand icon in the Font Awesome Free version
+
+---
+
+## [5.1.0](https://github.com/FortAwesome/Font-Awesome-Pro/releases/tag/5.1.0)  - 2018-06-20
+
+**Minor version upgrade notice: there are some backward-incompatible changes to this release. See the
+[UPGRADING.md guide](https://github.com/FortAwesome/Font-Awesome/blob/master/UPGRADING.md) for more
+information.**
+
+### Added
+* New Emoji, Design, and Travel category pack
+* Another group of requested and commissioned icons
+* Version 4 shim for Web Fonts with CSS
+* New simplified download and NPM packages
+* @fortawesome/fontawesome-free and @fortawesome/fontawesome-pro NPM packages that match what's available in the CDN and .ZIP files
+* Brand icons rev, nimblr, megaport, mailchimp, hornbill, wix, weebly, themeco, squarespace, aws, shopware
+* API method toHtml() for converting abstract objects to HTML
+* API method counter() to generate Layers Counters
+* API method watch() to configure MutationObserver and watch DOM for icon changes and additions
+
+### Changed
+* Relocating sponsor data to a separate sponsors.yml
+* Updated teamspeak brand icon
+* No more default exports in the CommonJS/ES packages (anything installed from NPM)
+* Greatly improved performance and rendering of CSS pseudo-elements with SVG and JavaScript
+* Configuration of SVG with JavaScript can now be done with attributes on the script tag
+* SVG with JavaScript pseudo-elements now match syntax (font-family, font-weight) of Web Fonts with CSS
+
+### Fixed
+* Tree shaking of all NPM packages by default
+* Alignment of the book-open and dice-six icon
+* Correcting creative-commons
+* Incorrect license on the fontawesome-common-types package
+* Improve ligatures that share a base name with another ligature
+* Correcting solid style of the digital-tachograph icon
+* Prevent duplicating classes in some scenarios with SVG with JavaScript
+* Duplicate insertion of CSS when insertCss() method was called
+* Missing TypeScript definitions for the free-brands-svg-icons package
+
 ---
 
 ## [5.0.13](https://github.com/FortAwesome/Font-Awesome/releases/tag/5.0.13)  - 2018-05-10
