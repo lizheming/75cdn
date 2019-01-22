@@ -1,6 +1,6 @@
 {
   "name": "rb-table",
-  "version": "1.0.12",
+  "version": "1.0.15",
   "description": "Declarative React table component with highly customizable scroll and layout feature",
   "filename": "index.js",
   "repository": {
