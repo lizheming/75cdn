@@ -1,0 +1,27 @@
+{
+  "name": "clair",
+  "version": "0.7.11",
+  "description": "A design system including principles, Vue components and resources",
+  "filename": "clair.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clair-design/clair.git"
+  },
+  "author": "webzhao",
+  "homepage": "https://clair-design.github.io",
+  "keywords": [],
+  "license": "MIT",
+  "npmName": "clair",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "clair.js",
+        "clair.es.js",
+        "clair.css",
+        "clair.min.css",
+        "clair.min.css.map"
+      ]
+    }
+  ]
+}
